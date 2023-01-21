@@ -1,0 +1,1884 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Genesis</title>
+	<link rel="shortcut icon" type="image/x-icon" href="images/genesis/genesis-logo.PNG">
+
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Great+Vibes&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+	<link rel="stylesheet" href="css/animate.css">
+
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+	<link rel="stylesheet" href="css/magnific-popup.css">
+
+	<link rel="stylesheet" href="css/aos.css">
+
+	<link rel="stylesheet" href="css/ionicons.min.css">
+
+	<link rel="stylesheet" href="css/bootstrap-datepicker.css">
+	<link rel="stylesheet" href="css/jquery.timepicker.css">
+
+
+	<link rel="stylesheet" href="css/flaticon.css">
+	<link rel="stylesheet" href="css/icomoon.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link href="http://fonts.cdnfonts.com/css/akira-expanded" rel="stylesheet">
+
+	<style>
+		/* .card-block{
+			padding: 10px;
+		} */
+		body {
+            background-color: black;
+           
+        }
+
+        h2 {
+            color: #EBEBE0;
+
+        }
+		.card {
+			width: 100%;
+			height: 100%;
+			background-color: black;
+			border: 1px solid white;
+			/* margin: 10px; */
+		}
+
+		.card-title {
+			font-weight: 600;
+			font-size: 23px;
+			margin: 5px;
+			color: #EBEBE0;
+		}
+
+		.card-subtitle {
+			/* font-weight: 600; */
+			font-size: 14px;
+			margin: 5px;
+			line-height: 20px;
+		}
+		.card-subtitle span{
+			color: #EBEBE0;
+
+		}
+
+		.terms li:hover {
+			text-decoration: underline;
+		}
+		.col-md-6{
+			margin-bottom: 20px ;
+		}
+
+		/* .modal-content{
+			background-color: black;
+			border: 1px solid white;
+			color: #EBEBE0 !important;
+		}
+
+		.modal-content h5{
+			color: #EBEBE0 !important;
+		} */
+
+	</style>
+
+</head>
+
+<body onload="loadData()">
+	<!-- <div class="py-1 bg-black top">
+		<div class="container">
+			<div class="row no-gutters d-flex align-items-start align-items-center px-md-0">
+				<div class="col-lg-12 d-block">
+					<div class="row d-flex">
+						<div class="col-md pr-4 d-flex topper align-items-center">
+							<div class="icon mr-2 d-flex justify-content-center align-items-center">
+								<img src="images/genesis/whatsapp.png" style="height: 30px;width:30px">
+							</div>
+							<a href="https://api.whatsapp.com/send?phone=+91 63851 86041&text=Hi%2C%20I%20have%20a%20query%20regarding%20Genesis."
+								target="_blank" rel="noopener noreferrer">
+								<span class="text" style="color: rgb(181, 181, 181);">+91 63851 86041</span>
+							</a>
+						</div>
+						<div class="col-md pr-4 d-flex topper align-items-center">
+							<div class="icon mr-2 d-flex justify-content-center align-items-center"><span
+									class="icon-paper-plane"></span></div>
+							<span class="text"> queries@mmcgenesis.com </span>
+						</div>
+						<div class="col-md-5 pr-4 d-flex topper align-items-center text-lg-right justify-content-end">
+							<p class="mb-0 register-link"><span>Events Start:</span>
+								<span>18-10-2022</span>&nbsp;<span>08:00AM</span>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div> -->
+	<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+		<div class="container">
+			<a class="navbar-brand" href="index.html" >
+				<img src="./images/genesis/genesis_logo/genesis logo white resized.png"
+					style="width: 50px;height: 50px;margin: 10px;">
+				Genesis</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav"
+				aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="oi oi-menu"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="ftco-nav">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+					<li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+					<li class="nav-item active"><a href="menu.html" class="nav-link">Events</a></li>
+					<li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+					<li class="nav-item"><a href="ourTeam.html" class="nav-link">Our Team</a></li>
+					<li class="nav-item"><a href="reservation.html" class="nav-link">Register</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<!-- END nav -->
+
+	<!-- <section class="hero-wrap hero-wrap-2" style="background-image: url('images/genesis/Event_page.jpg');background-size: cover;height: 100%;"
+		data-stellar-background-ratio="0.5">
+		<div class="overlay">
+		
+		</div>
+		<div class="container">
+			<div class="row no-gutters slider-text align-items-end justify-content-center">
+				<div class="col-md-9 ftco-animate text-center mb-4">
+					<h1 class="mb-2 bread">Events</h1>
+					<p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home <i
+									class="ion-ios-arrow-forward"></i></a></span> <span>Events <i
+								class="ion-ios-arrow-forward"></i></span></p>
+				</div>
+			</div>
+		</div>
+	</section> -->
+	<div id="demo1" class="carousel slide" data-ride="carousel">
+		<ul class="carousel-indicators">
+		  <li data-target="#demo1" data-slide-to="0" class="active"></li>
+		  <li data-target="#demo1" data-slide-to="1"></li>
+		  <li data-target="#demo1" data-slide-to="2"></li>
+		</ul>
+		<div class="carousel-inner">
+			<div class="carousel-item active">
+				<div style="background-image:url('images/genesis/Event_page.jpg');height: 100%;background-position: center;
+					   background-repeat: no-repeat;background-size: cover;">
+				  <div style=" text-align: center; height: 755px; background-color: rgba(0,0,0,0.6); padding: 2px;">
+					<h1 style="margin-top:330px;color: white;font-size: 50px;font-family:'Akira Expanded', sans-serif;">Events
+					</h1>
+				  </div>
+				</div>
+			  </div>
+		  <div class="carousel-item">
+			<div style="background-image:url('images/genesis/Genesis\ 2019.jpeg');height: 100%;background-position: center;
+				   background-repeat: no-repeat;background-size: cover;">
+			  <div style=" text-align: center; height: 755px; background-color: rgba(0,0,0,0.6); padding: 2px;">
+				<h1 style="margin-top:330px;color: white;font-size: 50px;font-family:'Akira Expanded', sans-serif;">Events
+				</h1>
+			  </div>
+			</div>
+		  </div>
+		  <div class="carousel-item">
+			<div style="background-image:url('images/genesis/MMC\ .jpg');height: 100%;background-position: center;
+			  background-repeat: no-repeat;background-size: cover;">
+			  <div style=" text-align: center; height: 755px; background-color: rgba(0,0,0,0.6); padding: 2px;">
+				<h1 style="margin-top:330px;color: white;font-size: 50px;font-family:'Akira Expanded', sans-serif;">Events
+				</h1>
+			  </div>
+			</div>
+		  </div>
+		</div>
+	
+		<!-- Left and right controls -->
+		<a class="carousel-control-prev" href="#demo1" data-slide="prev">
+		  <span class="carousel-control-prev-icon"></span>
+		</a>
+		<a class="carousel-control-next" href="#demo1" data-slide="next">
+		  <span class="carousel-control-next-icon"></span>
+		</a>
+	  </div>
+
+
+	<section class="ftco-section" style=" background-color: black;">
+		<div class="container">
+			<div class="ftco-search">
+				<div class="row">
+					<div class="col-md-12 nav-link-wrap">
+						<div class="nav nav-pills d-flex text-center" id="v-pills-tab" role="tablist"
+							aria-orientation="vertical">
+							<a class="nav-link ftco-animate active" id="v-pills-1-tab" data-toggle="pill"
+								href="#v-pills-1" role="tab" aria-controls="v-pills-1" aria-selected="true"
+								onclick="Day1()">18th October</a>
+							<a class="nav-link ftco-animate" id="v-pills-2-tab" data-toggle="pill" href="#v-pills-1"
+								role="tab" aria-controls="v-pills-2" aria-selected="true" onclick="Day2()">19th October</a>
+							<a class="nav-link ftco-animate" id="v-pills-3-tab" data-toggle="pill" href="#v-pills-1"
+								role="tab" aria-controls="v-pills-3" aria-selected="true" onclick="Day3()">20th October</a>
+							<a class="nav-link ftco-animate" id="v-pills-4-tab" data-toggle="pill" href="#v-pills-1"
+								role="tab" aria-controls="v-pills-4" aria-selected="true" onclick="Day4()">21st October</a>
+						</div>
+					</div>
+					<div class="container-fluid ftco-animate" id="Day_1">
+						<div class="row">
+							<div class="col-md-6">
+								<div class="card">
+									<div class="card-block">
+										<img src="images/genesis/event_pics/mannus periitus operatio.JPEG"  style="width:100% ;height:330px">
+										<h5 class="card-title">Mannus Peritus Operatio – Surgery Workshop</h5>
+										<h6 class="card-subtitle text-muted">
+											<span style="float: left;">Regular price – <span
+													style="font-weight: bold;font-size:16px;">Rs:<span
+														style="text-decoration: line-through;"> 1499 </span>
+													/-</span></span>
+											<span style="float: right;">Early bird price – <span
+													style="font-weight: bold;font-size:16px">Rs: 1199 /-</span></span>
+										</h6><br>
+										<button class="btn btn-primary" data-toggle="modal"
+											data-target="#Mannus_peritus" style="float: right;margin:10px;">More
+											Details</button>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="card">
+									<div class="card-block">
+										<img src="images/genesis/event_pics/the first breath.JPEG"  style="width:100% ;height:330px">
+										<h5 class="card-title">First Breath-Paediatrics Workshop</h5>
+										<h6 class="card-subtitle text-muted">
+											<span style="float: left;">Regular price – <span
+													style="font-weight: bold;font-size:16px;">Rs:<span
+														style="text-decoration: line-through;"> 699 </span>
+													/-</span></span>
+											<span style="float: right;">Early bird price – <span
+													style="font-weight: bold;font-size:16px">Rs: 499 /-</span></span>
+										</h6><br><br>
+										<button class="btn btn-primary" data-toggle="modal" data-target="#First_Breath"
+											style="float: right;margin:10px;">More
+											Details</button>
+									</div>
+								</div>
+							</div>
+							
+						</div>
+						<div class="row">
+							<div class="col-md-6">
+								<div class="card">
+									<div class="card-block">
+										<img src="images/genesis/event_pics/calluseum.JPEG"  style="width:100% ;height:330px">
+										<h4 class="card-title">Calluseum – Orthopaedics Workshop</h4>
+										<h6 class="card-subtitle text-muted">
+											<span style="float: left;">Regular price – <span
+													style="font-weight: bold;font-size:16px;">Rs:<span
+														style="text-decoration: line-through;"> 1299 </span>
+													/-</span></span>
+											<span style="float: right;">Early bird price – <span
+													style="font-weight: bold;font-size:16px">Rs: 999 /-</span></span>
+										</h6><br><br>
+										<button class="btn btn-primary" data-toggle="modal" data-target="#Calluseum"
+											style="float: right;margin:10px;">More
+											Details</button>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="card">
+									<div class="card-block">
+										<img src="images/genesis/event_pics/Tales of the dead.JPEG"  style="width:100% ;height:330px">
+										<h5 class="card-title">Tales of the Dead 2.0 – Forensic Medicine Workshop</h5>
+										<h6 class="card-subtitle text-muted">
+											<span style="float: left;">Regular price – <span
+													style="font-weight: bold;font-size:16px;">Rs:<span
+														style="text-decoration: line-through;"> 1199 </span>
+													/-</span></span>
+											<span style="float: right;">Early bird price – <span
+													style="font-weight: bold;font-size:16px">Rs: 899 /-</span></span>
+										</h6><br>
+										<button class="btn btn-primary" data-toggle="modal" data-target="#Tales"
+											style="float: right;margin:10px;">More
+											Details</button>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-6">
+								<div class="card">
+									<div class="card-block">
+										<img src="images/genesis/event_pics/vitalis equilibre.JPEG"  style="width:100% ;height:330px">
+										<h5 class="card-title">Vitalis Equilibre - Nephrology Workshop</h5>
+										<h6 class="card-subtitle text-muted">
+											<span style="float: left;">Regular price – <span
+													style="font-weight: bold;font-size:16px;">Rs:<span
+														style="text-decoration: line-through;"> 799 </span>
+													/-</span></span>
+											<span style="float: right;">Early bird price – <span
+													style="font-weight: bold;font-size:16px">Rs: 499 /-</span></span>
+										</h6><br><br>
+										<button class="btn btn-primary" data-toggle="modal" data-target="#Vitalis"
+											style="float: right;margin:10px;">More
+											Details</button>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="card">
+									<div class="card-block">
+										<img src="images/genesis/event_pics/corpus delicti.JPEG"  style="width:100% ;height:330px">
+										<h4 class="card-title">Corpus Delicti – Treasure Hunt </h4>
+										<h6 class="card-subtitle text-muted">
+											<span style="float: left;">Regular price – <span
+													style="font-weight: bold;font-size:16px;">Rs:<span
+														style="text-decoration: line-through;"> 499 </span>
+													/-</span></span>
+											<span style="float: right;">Early bird price – <span
+													style="font-weight: bold;font-size:16px">Rs: 299 /-</span></span>
+										</h6><br>
+										<button class="btn btn-primary" data-toggle="modal" data-target="#Corpus"
+											style="float: right;margin:10px;">More
+											Details</button>
+									</div>
+								</div>
+							</div>
+						
+						</div>
+						<br>
+					</div>
+					<div class="container-fluid ftco-animate" id="Day_2">
+						<div class="row">
+							<div class="col-md-6">
+								<div class="card">
+									<div class="card-block">
+										<img src="images/genesis/event_pics/ecg ignited.JPEG"  style="width:100% ;height:330px">
+										<h5 class="card-title">ECG Ignited – ECG Workshop</h5>
+										<h6 class="card-subtitle text-muted">
+											<span style="float: left;">Regular price – <span
+													style="font-weight: bold;font-size:16px;">Rs:<span
+														style="text-decoration: line-through;"> 999 </span>
+													/-</span></span>
+											<span style="float: right;">Early bird price – <span
+													style="font-weight: bold;font-size:16px">Rs: 699 /-</span></span>
+										</h6><br>
+										<button class="btn btn-primary" data-toggle="modal" data-target="#ECG"
+											style="float: right;margin:10px;">More
+											Details</button>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="card">
+									<div class="card-block">
+										<img src="images/genesis/event_pics/lifeline.JPEG"  style="width:100% ;height:330px">
+										<h4 class="card-title">Lifeline- Emergency Medicine Workshop</h4>
+										<h6 class="card-subtitle text-muted">
+											<span style="float: left;">Regular price – <span
+													style="font-weight: bold;font-size:16px;">Rs:<span
+														style="text-decoration: line-through;"> 1499 </span>
+													/-</span></span>
+											<span style="float: right;">Early bird price – <span
+													style="font-weight: bold;font-size:16px">Rs: 999 /-</span></span>
+										</h6><br>
+										<button class="btn btn-primary" data-toggle="modal" data-target="#Lifeline"
+											style="float: right;margin:10px;">More
+											Details</button>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-6">
+								<div class="card">
+									<div class="card-block">
+										<img src="images/genesis/event_pics/gestazione.JPEG"  style="width:100% ;height:330px">
+										<h5 class="card-title">Gestazione – Obstetrics & Gynaecology Workshop</h5>
+										<h6 class="card-subtitle text-muted">
+											<span style="float: left;">Regular price – <span
+													style="font-weight: bold;font-size:16px;">Rs:<span
+														style="text-decoration: line-through;"> 1299 </span>
+													/-</span></span>
+											<span style="float: right;">Early bird price – <span
+													style="font-weight: bold;font-size:16px">Rs: 899 /-</span></span>
+										</h6><br>
+										<button class="btn btn-primary" data-toggle="modal" data-target="#Gestiazone"
+											style="float: right;margin:10px;">More
+											Details</button>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="card">
+									<div class="card-block">
+										<img src="images/genesis/event_pics/hora aureus de ictus.JPEG"  style="width:100% ;height:330px">
+										<h4 class="card-title">HORA AUREUS De Ictus – Neurology Workshop</h4>
+										<h6 class="card-subtitle text-muted">
+											<span style="float: left;">Regular price – <span
+												style="font-weight: bold;font-size:16px;">Rs:<span style="text-decoration: line-through;"> 499 </span> /-</span></span>
+											<span style="float: right;">Early bird price – <span
+													style="font-weight: bold;font-size:16px">Rs: 99 /-</span></span>
+											<!-- <span style="float: right;">No Registration Fee </span> -->
+										</h6>
+										<br>
+										<button class="btn btn-primary" data-toggle="modal" data-target="#HORA"
+											style="float: right;margin:10px;">More
+											Details</button>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-6">
+								<div class="card">
+									<div class="card-block">
+										<img src="images/genesis/event_pics/the little doctor.JPEG"  style="width:100% ;height:330px">
+										<h4 class="card-title">The Little Doctor- Paediatric Procedures Workshop</h4>
+										<h6 class="card-subtitle text-muted">
+											<span style="float: left;">Regular price – <span
+													style="font-weight: bold;font-size:16px;">Rs:<span
+														style="text-decoration: line-through;"> 699 </span>
+													/-</span></span>
+											<span style="float: right;">Early bird price – <span
+													style="font-weight: bold;font-size:16px">Rs: 499 /-</span></span>
+										</h6><br>
+										<button class="btn btn-primary" data-toggle="modal" data-target="#The_Little_Doctor"
+											style="float: right;margin:10px;">More
+											Details</button>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="card">
+									<div class="card-block">
+										<img src="images/genesis/event_pics/RRR.JPEG"  style="width:100% ;height:330px">
+										<h4 class="card-title">Remedeo Recera Radionicus(RRR) - Medical Research
+											workshop</h4>
+										<h6 class="card-subtitle text-muted">
+											<span style="float: left;">Regular price – <span
+													style="font-weight: bold;font-size:16px;">Rs:<span
+														style="text-decoration: line-through;"> 499 </span>
+													/-</span></span>
+											<span style="float: right;">Early bird price – <span
+													style="font-weight: bold;font-size:16px">Rs: 399 /-</span></span>
+										</h6><br>
+										<button class="btn btn-primary" data-toggle="modal" data-target="#Remedeo"
+											style="float: right;margin:10px;">More
+											Details</button>
+									</div>
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<div class="container-fluid ftco-animate" id="Day_3">
+						<div class="row">
+							<div class="col-md-6">
+								<div class="card">
+									<div class="card-block">
+										<img src="images/genesis/event_pics/ignitia cortica.JPEG"  style="width:100% ;height:330px">
+										<h5 class="card-title">IGNITIA CORTICA RELOADED - Senior Quiz </h5>
+										<h6 class="card-subtitle text-muted">
+											<span style="float: left;">Regular price – <span
+													style="font-weight: bold;font-size:16px;">Rs:<span
+														style="text-decoration: line-through;"> 699 </span>
+													/-</span></span>
+											<span style="float: right;">Early bird price – <span
+													style="font-weight: bold;font-size:16px">Rs: 499 /-</span></span>
+										</h6><br>
+										<button class="btn btn-primary" data-toggle="modal" data-target="#IGNITIA"
+											style="float: right;margin:10px;">More
+											Details</button>
+									</div>
+								</div>
+							</div>
+							
+							<div class="col-md-6">
+								<div class="card">
+									<div class="card-block">
+										<img src="images/genesis/event_pics/hackathon.png"  style="width:100% ;height:330px">
+										<h5 class="card-title">Code Med – Hackathon </h5>
+										<h6 class="card-subtitle text-muted">
+											<span style="float: left;">Regular price – <span
+													style="font-weight: bold;font-size:16px;">Rs:<span
+														style="text-decoration: line-through;"> 699 </span>
+													/-</span></span>
+											<span style="float: right;">Early bird price – <span
+													style="font-weight: bold;font-size:16px">Rs: 499 /-</span></span>
+										</h6><br>
+										<button class="btn btn-primary" data-toggle="modal" data-target="#Code_Med"
+											style="float: right;margin:10px;">More
+											Details</button>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-6">
+								<div class="card">
+									<div class="card-block">
+										<img src="images/genesis/event_pics/exordium.png"  style="width:100% ;height:330px">
+										<h5 class="card-title">Exordium – Research Paper presentation</h5>
+										<h6 class="card-subtitle text-muted">
+											<span style="float: left;">Regular price – <span
+													style="font-weight: bold;font-size:16px;">Rs:<span
+														style="text-decoration: line-through;"> 499 </span>
+													/-</span></span>
+											<span style="float: right;">Early bird price – <span
+													style="font-weight: bold;font-size:16px">Rs: 299 /-</span></span>
+										</h6><br>
+										<button class="btn btn-primary" data-toggle="modal" data-target="#Exordium_Research"
+											style="float: right;margin:10px;">More
+											Details</button>
+									</div>
+								</div>
+							</div>
+							
+							<div class="col-md-6">
+								<div class="card">
+									<div class="card-block">
+										<img src="images/genesis/event_pics/diagnosart_.png"  style="width:100% ;height:330px">
+										<h5 class="card-title">Diagnosart – Clinical Case Presentation </h5>
+										<h6 class="card-subtitle text-muted">
+											<span style="float: left;">Regular price – <span
+													style="font-weight: bold;font-size:16px;">Rs:<span
+														style="text-decoration: line-through;"> 499 </span>
+													/-</span></span>
+											<span style="float: right;">Early bird price – <span
+													style="font-weight: bold;font-size:16px">Rs: 299 /-</span></span>
+										</h6><br>
+										<button class="btn btn-primary" data-toggle="modal" data-target="#Diagnosart_Clinical"
+											style="float: right;margin:10px;">More
+											Details</button>
+									</div>
+								</div>
+							</div>
+						</div>
+						
+						<br>
+					</div>
+					<div class="container-fluid ftco-animate" id="Day_4">
+						<div class="row">
+							<div class="col-md-6">
+								<div class="card">
+									<div class="card-block">
+										<img src="images/genesis/event_pics/fortis fundamenta.JPEG"  style="width:100% ;height:330px">
+										<h5 class="card-title">Fortis Fundamenta – Junior Quiz</h5>
+										<h6 class="card-subtitle text-muted">
+											<span style="float: left;">Regular price – <span
+													style="font-weight: bold;font-size:16px;">Rs:<span
+														style="text-decoration: line-through;"> 699 </span>
+													/-</span></span>
+											<span style="float: right;">Early bird price – <span
+													style="font-weight: bold;font-size:16px">Rs: 499 /-</span></span>
+										</h6><br>
+										<button class="btn btn-primary" data-toggle="modal" data-target="#Mannus"
+											style="float: right;margin:10px;">More
+											Details</button>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="card">
+									<div class="card-block">
+										<img src="images/genesis/event_pics/talk y cardia.JPEG"  style="width:100% ;height:330px">
+										<h4 class="card-title">Talk-Y-Cardia – A Medical Debate </h4>
+										<h6 class="card-subtitle text-muted">
+											<span style="float: left;">Regular price – <span
+													style="font-weight: bold;font-size:16px;">Rs:<span
+														style="text-decoration: line-through;"> 499 </span>
+													/-</span></span>
+											<span style="float: right;">Early bird price – <span
+													style="font-weight: bold;font-size:16px">Rs: 299 /-</span></span>
+										</h6><br>
+										<button class="btn btn-primary" data-toggle="modal" data-target="#Project"
+											style="float: right;margin:10px;">More
+											Details</button>
+									</div>
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<div class="modal fade" id="Mannus_peritus" >
+		<div class="modal-dialog modal-dialog-centered modal-xl ">
+			<div class="modal-content" >
+				<div class="modal-header">
+					<p style="font-size: 30px;text-align: center;font-weight: bold;">Mannus Peritus Operatio – Surgery
+						Workshop</p>
+					<button data-dismiss="modal" class="close btn btn-primary">x</button>
+				</div>
+				<div class="modal-body">
+					<div class="">
+						<!-- <h5 style="font-weight:bold;">
+								“Igniting your passion towards SURGERY”</h5> -->
+						<div class="container">
+							<p>"Igniting your passion towards SURGERY"</p>
+							<h5 style="font-weight:600;">
+								Duration&nbsp;: <span style="font-size: 20px;"> All day ( 9 AM to 5 PM )</span>
+							</h5>
+							<h5 style="font-weight:600;">Conducted by &nbsp;:</h5>
+							<span>Institute of General Surgery,<br>
+								Madras Medical College
+							</span>
+							<br>
+							<p></p>
+							<p></p><span style="font-weight: 600;">
+								This Workshop will train you under the following :
+							</span>
+							<ul>
+								<li> Suturing skills </li>
+								<li>Urinary catheterization with Foley’s catheterization </li>
+								<li>eFAST demonstration</li>
+								<li>Hands on basic Laparoscopic training </li>
+								<li>Oesophago-Gastro-Duodenoscopy demonstration</li>
+								<li>A conclusive talk on Geriatric surgery </li>
+							</ul>
+							<p></p>
+							<p></p><span style="font-weight: 600;">
+								For queries regarding this event, contact :
+							</span>
+							<p >Hrithesh Krishna- 9500634604</p>
+							<p style="line-height: 1px;">Rakshitha - 9003112405</p>
+						</div>
+					</div>
+				</div>
+				<div class="modal-footer">
+					<a href="reservation.html" target="_blank" rel="noopener noreferrer">
+						<button type="button" class="btn btn-primary">Register Now</button>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal fade" id="Calluseum">
+		<div class="modal-dialog modal-dialog-centered modal-xl ">
+			<div class="modal-content">
+				<div class="modal-header">
+					<p style="font-size: 30px;text-align: center;font-weight: bold;">Calluseum – Orthopaedics Workshop
+					</p>
+					<button data-dismiss="modal" class="close btn btn-primary">x</button>
+				</div>
+				<div class="modal-body">
+					<div class="">
+						<!-- <h5 style="font-weight:bold;">
+								“Igniting your passion towards SURGERY”</h5> -->
+						<div class="container">
+							<p>
+								"This basic workshop will provide comprehensive hands on training of needed skills for a
+								MBBS student in Orthopaedics . Nurturing the quest for Ortho in a demonstrative and
+								interactive way"
+							</p>
+							<h5 style="font-weight:600;">
+								Duration&nbsp;: <span style="font-size: 20px;"> All day ( 9 AM to 5 PM )</span>
+							</h5>
+							<h5 style="font-weight:600;">Conducted by &nbsp;:</h5>
+							<span>
+								Madras Medical College,<br> Institute of Orthopaedics and Traumatology</span>
+							<br>
+							<p></p><span style="font-weight: 600;">
+								This Workshop will train you under the following :
+							</span>
+							<ul>
+								<li> Plaster of paris (POP) application demonstration and training </li>
+								<li> Splint Application Demonstration and training </li>
+								<li>Management of common dislocations </li>
+								<li> Orthopaedic radiology</li>
+								<li> Bone model workshop
+									<ul>
+										<li> Plating</li>
+										<li> Nailing</li>
+										<li> Total knee replacement</li>
+									</ul>
+								</li>
+							</ul>
+							<p></p>
+							<p></p><span style="font-weight: 600;">
+								For queries regarding this event, contact :
+							</span>
+							<p >Kartik Saravana Kanth-8760095444</p>
+							<p style="line-height: 1px;">Priyanga-8220263408</p>
+						</div>
+
+					</div>
+				</div>
+				<div class="modal-footer">
+					<a href="reservation.html" target="_blank" rel="noopener noreferrer">
+						<button type="button" class="btn btn-primary">Register Now</button>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal fade" id="Tales">
+		<div class="modal-dialog modal-dialog-centered modal-xl ">
+			<div class="modal-content">
+				<div class="modal-header">
+					<p style="font-size: 30px;text-align: center;font-weight: bold;">Tales of the Dead 2.0 – Forensic
+						Medicine Workshop
+					</p>
+					<button data-dismiss="modal" class="close btn btn-primary">x</button>
+				</div>
+				<div class="modal-body">
+					<div class="">
+
+						<!-- <h5 style="font-weight:bold;">
+								“Igniting your passion towards SURGERY”</h5> -->
+						<div class="container">
+							<p>"Murders and detection are like potato chips. You can’t stop with one."</p>
+							<!-- <span>
+								Nobody owns life or death. Claim both with a forensic view of stealth and depth or
+								Murders and detection are like potato chips. You can’t stop with one.
+							</span> -->
+							<h5 style="font-weight:600;">
+								Duration&nbsp;: <span style="font-size: 20px;"> All day ( 9 AM to 5 PM )</span>
+							</h5>
+							<h5 style="font-weight:600;">Conducted by &nbsp;:</h5>
+							<span>Institute of Forensic Medicine & Toxicology,<br>Madras Medical College </span>
+							<br>
+							<p></p><span style="font-weight: 600;">
+								This Workshop will train you under the following :
+							</span>
+							<ul>
+								<li>Live Autopsy & Viscera Packing - Live Autopsy Demonstration
+									With Hands On Organ Dissection And Packing, Labeling And
+									Forwarding Viscera. </li>
+								<li> Mock Crime Scene (SOC) with DNA Sample Collection - Model
+									Crime Scene With Evidence Collection On Sexual Offence Case
+									And Demonstration Of DNA Sample Collection. </li>
+								<li> Medico-legal Certificate Writing - AR Entry, Wound, Drunkenness And sexual offence
+									Certificate. </li>
+								<!-- <li> Mock Court - Model Court Room Based On Real Case Presented On
+									SOC </li> -->
+								<li> Case Discussion - Discussion On Interesting Cases Dealt By Our
+									Forensic Surgeons.</li>
+									<li>Mock Court - Model court room based on real cases</li>
+
+							</ul>
+							<p></p>
+							<p></p><span style="font-weight: 600;">
+								For queries regarding this event, contact :
+							</span>
+							<p >Krishnakumar M - 8610796792</p>
+							<p style="line-height: 1px;">Balachandran - 9710004948</p>
+							<p style="line-height: 30px;">Nikhita Santhosh - 9444975832</p>
+						</div>
+
+
+					</div>
+				</div>
+				<div class="modal-footer">
+					<a href="reservation.html" target="_blank" rel="noopener noreferrer">
+						<button type="button" class="btn btn-primary">Register Now</button>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal fade" id="Remedeo">
+		<div class="modal-dialog modal-dialog-centered modal-xl ">
+			<div class="modal-content">
+				<div class="modal-header">
+					<p style="font-size: 30px;text-align: center;font-weight: bold;">Remedeo Recera Radionicus(RRR) -
+						Medical research
+						workshop
+					</p>
+					<button data-dismiss="modal" class="close btn btn-primary">x</button>
+				</div>
+				<div class="modal-body">
+					<div class="">
+
+						<!-- <h5 style="font-weight:bold;">
+								“Igniting your passion towards SURGERY”</h5> -->
+						<div class="container">
+							<p>"Helping you on your journey to becoming a Researcher! "</p>
+							<h5 style="font-weight:600;">
+								Duration of the workshop&nbsp;: <span style="font-size: 20px;"> 4 hours, Afternoon
+									session </span>
+							</h5>
+							<h5 style="font-weight:600;">Conducted by &nbsp;:</h5>
+							<span>Institute of General Surgery,<br>
+								Madras Medical College
+							</span>
+							<br>
+							<p></p><span style="font-weight: 600;">
+								This Workshop will train you under the following :
+							</span>
+
+							<ul>
+								<li> Introduction </li>
+								<li> choosing a topic </li>
+								<li> Review of literature</li>
+								<li> Study design </li>
+								<li> Sample size </li>
+								<li> Statistics - Differentials + interpretation </li>
+								<li> Ethics , Plagiarism & Proposal </li>
+								<li> Scientific writing and Publication </li>
+								<li> How to approach a Journal & Various types of journals</li>
+								<li> How to get started</li>
+							</ul>
+							<span style="font-weight: 600;">
+								This workshop is conducted in the Afternoon, Thus you have the option
+								to register for Vitalis Equilibre - Nephrology Workshop as well, which
+								will be conducted in the Forenoon
+							</span>
+							<p></p><p></p>
+							<span style="font-weight: 600;">Note : </span><br>
+							<span>This workshop is conducted in the afternoon, Thus you have the option to register for First Breath-Paediatrics Workshop as well, which will be conducted in the forenoon </span>
+							<p></p>
+							<p></p><span style="font-weight: 600;">
+								For queries regarding this event, contact :
+							</span>
+							<p >Pranitha - 9994666418</p>
+							<p style="line-height: 1px;">Aditya - 9444229098</p>
+
+						</div>
+
+
+					</div>
+				</div>
+				<div class="modal-footer">
+					<a href="reservation.html" target="_blank" rel="noopener noreferrer">
+						<button type="button" class="btn btn-primary">Register Now</button>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal fade" id="Vitalis">
+		<div class="modal-dialog modal-dialog-centered modal-xl ">
+			<div class="modal-content">
+				<div class="modal-header">
+					<p style="font-size: 30px;text-align: center;font-weight: bold;">Vitalis Equilibre - Nephrology
+						Workshop</p>
+					<button data-dismiss="modal" class="close btn btn-primary">x</button>
+				</div>
+				<div class="modal-body">
+					<div class="">
+
+						<!-- <h5 style="font-weight:bold;">
+								“Igniting your passion towards SURGERY”</h5> -->
+						<div class="container">
+							<p>"More on stones and failures, with no filters"</p>
+							<h5 style="font-weight:600;">
+								Duration of the workshop&nbsp;: <span style="font-size: 20px;"> 4 hours</span>
+							</h5>
+							<h5 style="font-weight:600;">Conducted by &nbsp;:</h5>
+							<span>
+								Institute of Nephrology,<br>
+								Dr. N. Gopalakrishnan M.D, D.M, MRCP (U.K), FRCP (U.K) <br>
+								Madras Medical College
+							</span>
+							<br>
+							<p></p><span style="font-weight: 600;">
+								This Workshop will train you under the following :
+							</span>
+
+							<ul>
+								<li> Approach to Sodium imbalance by Dr. Tanuj Moses Lamech MD, DM
+									(Nephrology), Assistant professor , Institute of Nephrology, MMC, Resident DM
+									Nephrology</li>
+								<li> Potassium imbalance by Dr. A. Venkatesh MD, DM, Assistant
+									Professor, Institute of Nephrology, MMC, Resident DM Nephrology</li>
+								<li> An approach to Arterial blood gas analysis by Dr. Praveenkumar
+									Natarajan MD, Resident DM Nephrology</li>
+
+							</ul>
+							<span style="font-weight: 600;">
+								All the above will be accompanied by case scenario discussions and
+								training in problem solving skills.
+
+							</span>
+							<p></p>
+							<p></p>
+							<span style="font-weight: 600;">Note : </span><br>
+							<span>
+								This workshop is conducted in the afternoon, Thus you have the option to register for The Little Doctor- Paediatric Procedures Workshop as well, which will be conducted in the forenoon 
+							</span>
+
+							<p></p>
+							<p></p><span style="font-weight: 600;">
+								For queries regarding this event, contact :
+							</span>
+							<p >Hariharan S - 8608483783</p>
+							<p style="line-height: 1px;">Vignesh M - 75983 47811</p>
+						</div>
+
+
+					</div>
+				</div>
+				<div class="modal-footer">
+					<a href="reservation.html" target="_blank" rel="noopener noreferrer">
+						<button type="button" class="btn btn-primary">Register Now</button>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal fade" id="ECG">
+		<div class="modal-dialog modal-dialog-centered modal-xl ">
+			<div class="modal-content">
+				<div class="modal-header">
+					<p style="font-size: 30px;text-align: center;font-weight: bold;">ECG Ignited – ECG Workshop</p>
+					<button data-dismiss="modal" class="close btn btn-primary">x</button>
+				</div>
+				<div class="modal-body">
+					<div class="">
+
+						<!-- <h5 style="font-weight:bold;">
+								“Igniting your passion towards SURGERY”</h5> -->
+						<div class="container">
+							<p>"Roses are red, Violets are blue, If you’ve got weird waves, there’s no more you"</p>
+							<h5 style="font-weight:600;">
+								Duration of the workshop&nbsp;: <span style="font-size: 20px;"> All day ( 9.30 AM to 4
+									PM )</span>
+							</h5>
+							<h5 style="font-weight:600;">Conducted by &nbsp;:</h5>
+							<span>Dr. Chenniappan, M.D., D.M. (CARDIOLOGY), FACC, FRCP, FCSI, FIAE,
+								FISE, Cardiovascular Diseases,<br>
+								Professor Emeritus, Tamil Nadu Dr MGR Medical University.
+
+							</span>
+							<br>
+							<p></p><span style="font-weight: 600;">
+								This Workshop will train you under the following :
+							</span>
+
+							<ul>
+								<li> Basics of Conduction System</li>
+								<li> Axes and Leads</li>
+								<li> Calculations and Electrical Axes</li>
+								<li> Different patterns of ECG </li>
+								<li>Changes in CAD</li>
+								<li> Arrythmias</li>
+							</ul>
+							<h5 style="font-weight:600;">Salient Features:</h5>
+							<ul>
+								<li>
+									Small Group Discussions with ECG sheets, discussions about their diagnosis and
+								management.
+								</li>
+								<li>
+									Quizzing with Voting Pads.
+								</li>
+							</ul>
+							<p></p>
+							<p></p><span style="font-weight: 600;">
+								For queries regarding this event, contact :
+							</span>
+							<p >Kailaeshwari - 9585977575</p>
+							<p style="line-height: 1px;">Arun Prasad - 9074935911</p>
+						</div>
+
+
+					</div>
+				</div>
+				<div class="modal-footer">
+					<a href="reservation.html" target="_blank" rel="noopener noreferrer">
+						<button type="button" class="btn btn-primary">Register Now</button>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal fade" id="Lifeline">
+		<div class="modal-dialog modal-dialog-centered modal-xl ">
+			<div class="modal-content">
+				<div class="modal-header">
+					<p style="font-size: 30px;text-align: center;font-weight: bold;">Lifeline- Emergency Medicine Workshop
+					</p>
+					<button data-dismiss="modal" class="close btn btn-primary">x</button>
+				</div>
+				<div class="modal-body">
+					<div class="">
+
+						<!-- <h5 style="font-weight:bold;">
+								“Igniting your passion towards SURGERY”</h5> -->
+						<div class="container">
+							<p>
+								"Experience the adrenaline rush of the ER with our all new hands-on Critical Care
+								Workshop!"
+							</p>
+
+							<h5 style="font-weight:600;">
+								Duration &nbsp;: <span style="font-size: 20px;"> All day ( 9 AM to 5 PM)
+								</span>
+							</h5>
+							<h5 style="font-weight:600;">Conducted by &nbsp;:</h5>
+							<span>
+								Prof. Dr. Sudhakar (Head of Department of Critical Care, MMC) <br>
+								Prof. Dr. Gomathi - (Associate professor, Department of emergency medicine, MMC) <br>
+								and her team
+							</span>
+							<br>
+							<p></p><span style="font-weight: 600;">
+								This Workshop will train you under the following :
+							</span><br>
+							<span>4 stations will be arranged:-</span>
+							<ul>
+								<li> Basic Life support (BLS)</li>
+								<li> Advanced Cardiac Life Support (ACLS)</li>
+								<li> Airway access and management</li>
+								<li> Basics of Mechanical Ventilation</li>
+							</ul>
+							<span>
+								Students will be divided into groups of 10 each. They will go through
+								each station to get a clear understanding about Critical care.
+
+							</span>
+							<p></p>
+							<p></p><span style="font-weight: 600;">
+								For queries regarding this event, contact :
+							</span>
+							<p >Abhinav R - 9884916761</p>
+							<p style="line-height: 1px;">Alaka Panigrahi - 8825942622</p>
+						</div>
+
+
+					</div>
+				</div>
+				<div class="modal-footer">
+					<a href="reservation.html" target="_blank" rel="noopener noreferrer">
+						<button type="button" class="btn btn-primary">Register Now</button>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal fade" id="Gestiazone">
+		<div class="modal-dialog modal-dialog-centered modal-xl ">
+			<div class="modal-content">
+				<div class="modal-header">
+					<p style="font-size: 30px;text-align: center;font-weight: bold;">Gestazione – Obstetrics &
+						Gynaecology Workshop</p>
+					<button data-dismiss="modal" class="close btn btn-primary">x</button>
+				</div>
+				<div class="modal-body">
+					<div class="">
+
+						<!-- <h5 style="font-weight:bold;">
+								“Igniting your passion towards SURGERY”</h5> -->
+						<div class="container">
+							<p>"Experience the joy of learning how to deliver a soul into this universe with our all
+								new Obstetrics and Gynaecology workshop"
+							</p>
+
+							<h5 style="font-weight:600;">
+								Duration &nbsp;: <span style="font-size: 20px;"> All day ( 9 AM to 5 PM )</span>
+							</h5>
+							<h5 style="font-weight:600;">Conducted by &nbsp;:</h5>
+							<span>Institute of Obstetrics & Gynaecology,
+								Egmore. <br>Madras Medical College
+
+							</span>
+							<br>
+							<p></p><span style="font-weight: 600;">
+								This Workshop will train you under the following :
+							</span><br>
+							<span style="font-weight: 600;">4 stations will be arranged:-</span>
+							<ul>
+								<li> Live Observation:</li>
+								<ul>
+									<li> Normal Labour</li>
+									<li> LSCS</li>
+									<li> Assisted Delivery</li>
+								</ul>
+
+								<li> OSCE Stations</li>
+								<li> Skills Lab</li>
+								<li> Episiotomy Hands-on</li>
+								<li> Partograph Plotting</li>
+
+							</ul>
+							<span>
+								Each station will have a Professor, Assistant Professor and a Post Graduate.
+							</span>
+							<p></p>
+							<p></p><span style="font-weight: 600;">
+								For queries regarding this event, contact :
+							</span>
+							<p >Sobhana - 8754473073</p>
+							<p style="line-height: 1px;">Afrah – 6379755519</p>
+						</div>
+
+
+					</div>
+				</div>
+				<div class="modal-footer">
+					<a href="reservation.html" target="_blank" rel="noopener noreferrer">
+						<button type="button" class="btn btn-primary">Register Now</button>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal fade" id="HORA">
+		<div class="modal-dialog modal-dialog-centered modal-xl ">
+			<div class="modal-content">
+				<div class="modal-header">
+					<p style="font-size: 30px;text-align: center;font-weight: bold;">HORA AUREUS De Ictus – Neurology
+						Workshop</p>
+					<button data-dismiss="modal" class="close btn btn-primary">x</button>
+				</div>
+				<div class="modal-body">
+					<div class="">
+
+						<!-- <h5 style="font-weight:bold;">
+								“Igniting your passion towards SURGERY”</h5> -->
+						<div class="container">
+							<p>“Neurology is learnt stroke by stroke”</p>
+							<h5 style="font-weight:600;">
+								Duration &nbsp;: <span style="font-size: 20px;"> All day ( 9 AM to 5 PM )</span>
+							</h5>
+							<span>Want to learn about the crackle of electricity in your brain that allows
+								you to think and move? Come join our Neurology Workshop
+							</span>
+							<h5 style="font-weight:600;">Conducted by &nbsp;:</h5>
+							<span>
+								Prof.Dr.R.Lakshmi Narasimhan MD(Internal Medicine), DNB(Internal Medicine), DM(Neurology), DNB(Neurology), PhD,FAAN, FRCP(London,Glasgow), FIAN, MNAMS(Neurology), <br>
+The Director, Institute of Neurology,MMC&RGGH and his team.
+							</span>
+							<br>
+							<p></p><span style="font-weight: 600;">
+								This Workshop will train you under the following :
+							</span><br>
+							<span>Delegates will go through the following stations to get a clear understanding about stroke :</span>
+							<ul>
+								<li> Receiving a stroke case in ER</li>
+								<li> Neuroimaging in stroke</li>
+								<li> Thrombolysis</li>
+								<li> Mechanical thrombectomy</li>
+								<li> Neuro-rehabilitation</li>
+
+							</ul>
+							<p></p>
+							<p></p><span style="font-weight: 600;">
+								For queries regarding this event, contact :
+							</span>
+							<p >Anirudh - 8056801147</p>
+							<p style="line-height: 1px;">Shakthi - 9944762752</p>
+
+						</div>
+
+
+					</div>
+				</div>
+				<div class="modal-footer">
+					<a href="reservation.html" target="_blank" rel="noopener noreferrer">
+						<button type="button" class="btn btn-primary">Register Now</button>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal fade" id="A_Tiny">
+		<div class="modal-dialog modal-dialog-centered modal-xl ">
+			<div class="modal-content">
+				<div class="modal-header">
+					<p style="font-size: 30px;text-align: center;font-weight: bold;">A Tiny World – Paediatrics Workshop
+					</p>
+					<button data-dismiss="modal" class="close btn btn-primary">x</button>
+				</div>
+				<div class="modal-body">
+					<div class="">
+
+						<!-- <h5 style="font-weight:bold;">
+								“Igniting your passion towards SURGERY”</h5> -->
+						<div class="container">
+							<p>“This full day extensive workshop will provide comprehensive hands-on training of needed
+								skills for a MBBS student on Paediatrics”</p>
+							<h5 style="font-weight:600;">
+								Duration &nbsp;: <span style="font-size: 20px;"> All day ( 9 AM to 5 PM )</span>
+							</h5>
+							<h5 style="font-weight:600;">Conducted by &nbsp;:</h5>
+							<span>
+								Dr. Srinivasan, Nodal Officer, Registrar <br>
+								Institute of Child Health, Egmore <br>
+								Prof. Dr. Indhumathi Sathyanandam, Project Coordinator/Lead trainer, <br>
+								Regional Collaborative Center (Prem-TAEI Simulation Lab)
+
+							</span>
+							<br>
+							<p></p><span style="font-weight: 600;">
+								This Workshop will train you under the following :
+							</span><br>
+							<ul>
+								<li> Neonatal Resuscitation</li>
+								<li> Paediatric Procedures</li>
+								<ul>
+									<li> IV Canula insertion</li>
+									<li> Urinary Cathetarisation with Foley’s Catheterization </li>
+								</ul>
+
+							</ul>
+
+						</div>
+
+
+					</div>
+				</div>
+				<div class="modal-footer">
+					<a href="reservation.html" target="_blank" rel="noopener noreferrer">
+						<button type="button" class="btn btn-primary">Register Now</button>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal fade" id="Corpus">
+		<div class="modal-dialog modal-dialog-centered modal-xl ">
+			<div class="modal-content">
+				<div class="modal-header">
+					<p style="font-size: 30px;text-align: center;font-weight: bold;">Corpus delicti – Treasure Hunt</p>
+					<button data-dismiss="modal" class="close btn btn-primary">x</button>
+				</div>
+				<div class="modal-body">
+					<div class="">
+
+						<!-- <h5 style="font-weight:bold;">
+								“Igniting your passion towards SURGERY”</h5> -->
+						<div class="container">
+							<p>
+								"Tired of attending workshops all day and wanna take a chill-pill out.
+								Come attend our Murder Mystery Event"
+							</p>
+
+							<h5 style="font-weight:600;">
+								Duration &nbsp;: <span style="font-size: 20px;"> Post-Workshop ( after 5 PM)</span>
+							</h5>
+							<h5 style="font-weight:600;">Rules &nbsp;:</h5>
+							<ul>
+								<li> Team of 2
+								<li> Cross college teams are allowed</li>
+								<li> Single participation also allowed</li>
+								<li> First year to interns can participate </li>
+								<li> Only limited teams allowed</li>
+								<li> Teams will be admitted based on first come first serve </li>
+							</ul>
+							<p></p>
+							<p></p><span style="font-weight: 600;">
+								For queries regarding this event, contact :
+							</span>
+							<p >Sreenidhi - 7305594870</p>
+							<p style="line-height: 1px;">Sreepriya - 9137717510</p>
+
+						</div>
+
+
+					</div>
+				</div>
+				<div class="modal-footer">
+					<a href="reservation.html" target="_blank" rel="noopener noreferrer">
+						<button type="button" class="btn btn-primary">Register Now</button>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal fade" id="IGNITIA">
+		<div class="modal-dialog modal-dialog-centered modal-xl ">
+			<div class="modal-content">
+				<div class="modal-header">
+					<p style="font-size: 30px;text-align: center;font-weight: bold;">IGNITIA CORTICA RELOADED - Senior
+						Quiz</p>
+					<button data-dismiss="modal" class="close btn btn-primary">x</button>
+				</div>
+				<div class="modal-body">
+					<div class="">
+
+						<!-- <h5 style="font-weight:bold;">
+								“Igniting your passion towards SURGERY”</h5> -->
+						<div class="container">
+                            <p>"Let out the fizz, prove you’re the whiz!"</p>
+
+							<h5 style="font-weight:600;">
+								Duration &nbsp;: <span style="font-size: 20px;"> All day ( Literally!! )</span>
+							</h5>
+							<h5 style="font-weight:600;">
+								Topics&nbsp;: <span style="font-size: 20px;"> FULL MBBS portions</span>
+							</h5>
+							<h5 style="font-weight:600;">
+								Eligibility :
+							</h5>
+							<ul>
+								<li>First year to intern </li>
+								<li>Teams of 3 </li>
+								<li>NO RESTRICTION for number of interns per team </li>
+								<li>Cross college teams not allowed </li>
+							</ul>
+							<h5 style="font-weight:600;">Note &nbsp;: <span style="font-size: 20px;">On-Spot
+									registration available</span> </h5>
+							<span>Prelims will be conducted in offline mode </span>
+							<h5 style="font-weight:600;">Prelims Timing&nbsp; :<span style="font-size: 20px;"> 8:00-9:30
+									on
+									event day</span></h5>
+							<h5 style="font-weight:600;">Finals&nbsp;:</h5>
+							<span>Top 6 teams will be selected for Finals.
+								Additional 2 teams will be added as wild card
+							</span>
+							<p></p>
+							<p></p>
+							<h5 style="font-weight:600;">Details regarding prize : </h5>
+							<ul>
+								<li>1st Prize - ₹22000 + Books + e-Gurukul Subscriptions</li>
+								<li>2nd Prize - ₹18000 + Book s+ e-Gurukul Subscriptions </li>
+								<li>3rd Prize - ₹10000 + Books + e-Gurukul Subscriptions</li>
+							</ul>
+							<p></p>
+							<p></p><span style="font-weight: 600;">
+								For queries regarding this event, contact :
+							</span>
+							<p >Shirish Senthilkumar - 9600773454</p>
+							<p style="line-height: 1px;">Praveen – 8056074353</p>
+						</div>
+
+
+					</div>
+				</div>
+				<div class="modal-footer">
+					<a href="reservation.html" target="_blank" rel="noopener noreferrer">
+						<button type="button" class="btn btn-primary">Register Now</button>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal fade" id="Project">
+		<div class="modal-dialog modal-dialog-centered modal-xl ">
+			<div class="modal-content">
+				<div class="modal-header">
+					<p style="font-size: 30px;text-align: center;font-weight: bold;">Talk-Y-Cardia – A Medical
+						Debate </p>
+					<button data-dismiss="modal" class="close btn btn-primary">x</button>
+				</div>
+				<div class="modal-body">
+					<div class="">
+
+						<!-- <h5 style="font-weight:bold;">
+								“Igniting your passion towards SURGERY”</h5> -->
+						<div class="container">
+							<p>"Speak straight from the heart!"</p>
+							<ul>
+								<li> Participate as Teams Of 2</li>
+								<li> Cross College Teams Are ALLOWED</li>
+								<li> Non Medicos are allowed to participate with one Medico
+									(Paramedicals Are Also Allowed) as their teammate.</li>
+							</ul>
+							<p></p>
+							<p></p><span style="font-weight: 600;">
+								For queries regarding this event, contact :
+							</span>
+							<p >Priyanka Reddy - 9791105504</p>
+							<p style="line-height: 1px;">Shibi S M - 8300522625</p>
+							<p style="line-height: 30px;">Dheena Dhayalan - 6381260836</p>
+
+							<!-- <span style="font-weight: 600;">Rulebook link :</span> -->
+						</div>
+
+
+					</div>
+				</div>
+				<div class="modal-footer">
+					<a href="reservation.html" target="_blank" rel="noopener noreferrer">
+						<button type="button" class="btn btn-primary">Register Now</button>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal fade" id="Code_Med">
+		<div class="modal-dialog modal-dialog-centered modal-xl ">
+			<div class="modal-content">
+				<div class="modal-header">
+					<p style="font-size: 30px;text-align: center;font-weight: bold;">Code Med – Hackathon</p>
+					<button data-dismiss="modal" class="close btn btn-primary">x</button>
+				</div>
+				<div class="modal-body">
+					<div class="">
+
+						<!-- <h5 style="font-weight:bold;">
+								“Igniting your passion towards SURGERY”</h5> -->
+						<div class="container">
+							<p>
+								"Are you passionate about making a change? Do you have an idea that
+								you think will revolutionize the approach towards healthcare in your
+								community? If your answer is "Yes", we want to hear from you!
+								CODE MED - HACKATHON is an opportunity for you to submit your techenabled solutions
+								for the problem statement provided."
+							</p>
+							<h5 style="font-weight: 600;"> Themes&nbsp;: </h5>
+							<ul>
+								<li> NCD management, screening and continuation of care.</li>
+								<li> Patient data management.</li>
+								<li> Continuation of care at different levels.</li>
+								<li> Antibiotic resistance surveillance.</li>
+							</ul>
+							<h5 style="font-weight: 600;">General Rules&nbsp;:</h5>
+							<ul>
+								<li>Event is open to all UG MBBS students from first year to final year
+									including CRRIS.</li>
+								<li> Students are allowed to participate in teams of two.</li>
+								<li> Participants are encouraged to partner with an Engineering
+									student( as the second participant).</li>
+							</ul>
+							<p></p>
+							<p></p><span style="font-weight: 600;">
+								For queries regarding this event, contact :
+							</span>
+							<p >Kasi - 7358536462</p>
+							<p style="line-height: 1px;">Ashna Parvin - 6385186041</p>
+							<!-- <h5 style="font-weight: 600;">Rulebook link : 
+								<a href="https://bit.ly/Exordiumrulebook">https://bit.ly/Exordiumrulebook</a></h5> -->
+						</div>
+
+
+					</div>
+				</div>
+				<div class="modal-footer">
+					<a href="reservation.html" target="_blank" rel="noopener noreferrer">
+						<button type="button" class="btn btn-primary">Register Now</button>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal fade" id="Mannus">
+		<div class="modal-dialog modal-dialog-centered modal-xl ">
+			<div class="modal-content">
+				<div class="modal-header">
+					<p style="font-size: 30px;text-align: center;font-weight: bold;">Fortis Fundamenta – Junior Quiz</p>
+					<button data-dismiss="modal" class="close btn btn-primary">x</button>
+				</div>
+				<div class="modal-body">
+					<div class="">
+
+						<!-- <h5 style="font-weight:bold;">
+								“Igniting your passion towards SURGERY”</h5> -->
+						<div class="container">
+                            <p>"Let out the fizz, prove you’re the whiz!"</p>
+							<h5 style="font-weight:600;">
+								Duration &nbsp;: <span style="font-size: 20px;"> All day ( Literally!! )</span>
+							</h5>
+							<h5 style="font-weight:600;">Topics &nbsp;:
+							</h5>
+							<span>Ist and IInd year subjects (including Forensic Medicine
+								and
+								Toxicology)</span>
+							<h5 style="font-weight:600;">Eligibility &nbsp;:</h5>
+							<ul>
+								<li>Ist, IInd and IIIrd year MBBS students</li>
+								<li>Teams of 3 (Maximum of one third year student)</li>
+								<li> Cross college teams are not allowed</li>
+							</ul>
+							<h5 style="font-weight:600;">Note&nbsp;: </h5>
+							<span > On-Spot registration available</span>
+							<h5 style="font-weight:600;">Prelims 1&nbsp;:</h5>
+							<span > Top 5 teams will be selected for the final round</span>
+							<h5 style="font-weight:600;">Prelims 2 (Wildcard) &nbsp;:</h5>
+							<span > 3 teams will be added additionally as
+								wildcard entries</span>
+							<h5 style="font-weight:600;">Finals &nbsp;: </h5>
+							<span > Details regarding the rounds will be revealed on the day
+								of
+								the Quiz
+							</span>
+							<p></p>
+							<p></p>
+							<h5 style="font-weight:600;">Details regarding prize : </h5>
+							<ul>
+								<li>1st Prize - ₹20000 + Books + e-Gurukul Subscriptions</li>
+								<li>2nd Prize - ₹12000 + Book s+ e-Gurukul Subscriptions </li>
+								<li>3rd Prize - ₹8000 + Books + e-Gurukul Subscriptions</li>
+							</ul>
+							<p></p>
+							<p></p><span style="font-weight: 600;">
+								For queries regarding this event, contact :
+							</span>
+							<p >Suriya - 9943126683</p>
+							<p style="line-height: 1px;">Karthikeyan AG - 9585555324</p>
+							<p style="line-height: 30px;">Sukrit - 9087720227</p>
+						</div>
+
+
+					</div>
+				</div>
+				<div class="modal-footer">
+					<a href="reservation.html" target="_blank" rel="noopener noreferrer">
+						<button type="button" class="btn btn-primary">Register Now</button>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="modal fade" id="Exordium_Research">
+		<div class="modal-dialog modal-dialog-centered modal-xl ">
+			<div class="modal-content">
+				<div class="modal-header">
+					<p style="font-size: 30px;text-align: center;font-weight: bold;">Exordium – Research Paper presentation </p>
+					<button data-dismiss="modal" class="close btn btn-primary">x</button>
+				</div>
+				<div class="modal-body">
+					<div class="">
+						<div class="container">
+							<p>Join us to be a part of this research extravaganza and get a chance to present your study to esteemed
+								researchers and fellow research enthusiasts!!!</p>
+							<p>The best papers will be selected as finalists for oral presentation.</p>
+							<p>The posters of the submitted abstracts that are approved by the committee can be brought on the final day
+								which will be displayed. The best posters will be awarded prizes.</p>
+							<br>
+							<span>Rulebook link- <a href="https://bit.ly/Exordiumrulebook" target="_blank"
+									rel="noopener noreferrer">https://bit.ly/Exordiumrulebook</a>
+							</span><br>
+							<span>
+								Register through this Google Form - <a href="https://bit.ly/Exordiumreg" target="_blank"
+									rel="noopener noreferrer">https://bit.ly/Exordiumreg </a>
+							</span>
+							<p></p>
+							<p></p><span style="font-weight: 600;">
+								For queries regarding this event, contact :
+							</span>
+							<p >Aditya V - 9444229098</p>
+							<p style="line-height: 1px;">Dhivya Dharshini - 94862 43311</p>
+						</div>
+					</div>
+				</div>
+				<div class="modal-footer">
+					<a href="https://bit.ly/Exordiumreg" target="_blank" rel="noopener noreferrer">
+						<button type="button" class="btn btn-primary">Register Now</button>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="modal fade" id="Diagnosart_Clinical">
+		<div class="modal-dialog modal-dialog-centered modal-xl ">
+			<div class="modal-content">
+				<div class="modal-header">
+					<p style="font-size: 30px;text-align: center;font-weight: bold;">Diagnosart – Clinical Case Presentation </p>
+					<button data-dismiss="modal" class="close btn btn-primary">x</button>
+				</div>
+				<div class="modal-body">
+					<div class="">
+						<div class="container">
+							<p>“When you hear hoofbeats, don’t think of ZEBRAS.” Join us for a display of some of the most exotic cases seen in our daily OPDs and words!</p>
+							<p>The top cases in each of the 6 subjects would be selected as finalist for oral presentation. The oral presentation finals will occur independently for each subject.</p>
+							<p>The posters of the submitted abstracts that are approved by the committee can be brought on the finals day which would be displayed. the best posters will be awarded with prizes.</p>
+							<br>
+							<span>Rulebook link- <a href="https://bit.ly/Diagnosartrulebook" target="_blank"
+									rel="noopener noreferrer">https://bit.ly/Diagnosartrulebook</a>
+							</span><br>
+							<span>
+								Register through this Google Form - <a href="https://bit.ly/Diagnosartreg" target="_blank"
+									rel="noopener noreferrer">https://bit.ly/Diagnosartreg</a>
+							</span>
+							<p></p>
+							<p></p><span style="font-weight: 600;">
+								For queries regarding this event, contact :
+							</span>
+							<p >Mridhula - 7338798284</p>
+							<p style="line-height: 1px;">Udaya C - 9498327900</p>
+						</div>
+					</div>
+				</div>
+				<div class="modal-footer">
+					<a href="https://bit.ly/Diagnosartreg" target="_blank" rel="noopener noreferrer">
+						<button type="button" class="btn btn-primary">Register Now</button>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="modal fade" id="The_Little_Doctor">
+		<div class="modal-dialog modal-dialog-centered modal-xl ">
+			<div class="modal-content">
+				<div class="modal-header">
+					<p style="font-size: 30px;text-align: center;font-weight: bold;">The Little Doctor- Paediatric Procedures Workshop</p>
+					<button data-dismiss="modal" class="close btn btn-primary">x</button>
+				</div>
+				<div class="modal-body">
+					<div class="">
+						<!-- <h5 style="font-weight:bold;">
+								“Igniting your passion towards SURGERY”</h5> -->
+						<div class="container">
+							<p>“Because the greatest things come in the smallest packages”</p>
+							<h5 style="font-weight:600;">
+								Duration&nbsp;: <span style="font-size: 20px;">Half-Day, Forenoon</span>
+							</h5>
+							<h5 style="font-weight:600;">Conducted by &nbsp;:</h5>
+							<span>
+								Prof Dr Indhumathy Santhanam (Project Co-Ordinator ,Regional Collaborative Centre, PREM-TAEI Simulation Lab) and her
+								Team,<br>
+								Institute of Child Health,<br>
+								Egmore.
+							</span>
+							<br>
+							<p></p>
+							<p></p><span style="font-weight: 600;">
+								This Workshop will train you under the following :
+							</span>
+							<ul>
+								<li>Head Thrust and Jaw Thrust manoeuvres with Focused History Taking</li>
+								<li>Bag Valve Mask Ventilation 1 person and 2 person technique</li>
+								<li>Heimlich Manoeuvre</li>
+								<li>Securing Intraosseous Access in a critically Ill child</li>
+								<li>Lecture on how to work as a team on emergency scenarios</li>
+							</ul>
+							<p></p>
+							<p></p>
+							<span  style="font-weight: 600;">Note : </span><br>
+							<span>This workshop is conducted in the Forenoon, Thus you have the option to register for Vitalis Equilibre -
+								Nephrology Workshop as well, which will be conducted in the Afternoon</span>
+
+
+							<p></p>
+							<p></p><span style="font-weight: 600;">
+								For queries regarding this event, contact :
+							</span>
+							<p >Chandrasekhar - 6374361280</p>
+							<p style="line-height: 1px;">Shruthi - 9486345433</p>
+							<p style="line-height: 30px;">Vaishali - 8838565092</p>
+						</div>
+					</div>
+				</div>
+				<div class="modal-footer">
+					<a href="reservation.html" target="_blank" rel="noopener noreferrer">
+						<button type="button" class="btn btn-primary">Register Now</button>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal fade" id="First_Breath">
+		<div class="modal-dialog modal-dialog-centered modal-xl ">
+			<div class="modal-content">
+				<div class="modal-header">
+					<p style="font-size: 30px;text-align: center;font-weight: bold;">First Breath-Paediatrics Workshop</p>
+					<button data-dismiss="modal" class="close btn btn-primary">x</button>
+				</div>
+				<div class="modal-body">
+					<div class="">
+						<!-- <h5 style="font-weight:bold;">
+								“Igniting your passion towards SURGERY”</h5> -->
+						<div class="container">
+							<p>“The biggest miracles are the smallest people”</p>
+							<h5 style="font-weight:600;">
+								Duration&nbsp;: <span style="font-size: 20px;">All Day (9 AM - 1 PM)</span>
+							</h5>
+							<h5 style="font-weight:600;">Conducted by &nbsp;:</h5>
+							<span>
+								Dr Srinivasan State Nodal Officer,Registrar <br>
+								Institute of Child Health, <br>
+								Egmore.
+							</span>
+							<br>
+							<p></p>
+							<p></p>
+							<span style="font-weight: 600;">
+								This Workshop will train you under the following :
+							</span><br>
+							<span>Neonatal Resuscitation and Neonatal  Stabilization</span>
+							<ul>
+								<li>General Introdution </li>
+								<li>Administering Chest Compressions</li>
+								<li>Positive Pressure Ventilation</li>
+								<li>Endotracheal Intubation</li>
+								<li>Use of Inotropes in Neonatal Resuscitation</li>
+							</ul>
+							<p></p><p></p>
+							<span style="font-weight: 600;">Note : </span><br>
+							<span>This workshop is conducted in the Forenoon, Thus you have the option to register for  Remedeo Recera Radionicus(RRR) - Medical Research workshop as well, which will be conducted in the Afternoon</span>
+							<p></p>
+							<p></p><span style="font-weight: 600;">
+								For queries regarding this event, contact :
+							</span>
+							<p >Chandrasekhar - 6374361280</p>
+							<p style="line-height: 1px;">Shruthi - 9486345433</p>
+							<p style="line-height: 30px;">Vaishali - 8838565092</p>
+						</div>
+					</div>
+				</div>
+				<div class="modal-footer">
+					<a href="reservation.html" target="_blank" rel="noopener noreferrer">
+						<button type="button" class="btn btn-primary">Register Now</button>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<section class="ftco-section" style="overflow-x: hidden;color: #EBEBE0;margin-top: -150px;">
+		<div class="row">
+			<div class="col-sm-2"></div>
+			<div class="col-sm-8">
+				<h5 style="font-weight: 600;color: #EBEBE0;">&nbsp;Note&nbsp;:</h5>
+				<ul>
+					<li>
+						Register for <b>2 events</b> and get <b>10% off</b> in both, Register for <b>3 or more
+							events</b> and get <b>15% off</b> for each.
+					</li>
+					<li>
+						<b>
+							If registering for more than one event, make sure they don’t overlap in the same day (most
+							events in a day
+							overlap, unless specified not )
+						</b>
+					</li>
+					<li>
+						There is <b>No extra Delegate Registration</b> required.
+					</li>
+					<li>
+						Registration charge is <b>inclusive for Food</b>
+					</li>
+					<li>
+						<b>Accommodation will be charged</b> extra as per requirement, which will be communicated later.
+					</li>
+					<li>
+						<b>Early bird registrations end by 3rd October.</b>
+					</li>
+					<li>
+						Registrations charges for team events are for per team and not per individual
+					</li>
+				</ul>
+			</div>
+			<div class="col-sm-2"></div>
+		</div>
+	</section>
+	
+	<footer class="ftco-section" style="border-top:1px solid #EBEBE0">
+		<div class="container">
+		  <div class="row">
+			<div class="col-sm-4">
+			  <h2 style="color: #EBEBE0;">Follow Us On</h2>
+			  <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-3">
+				<li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
+				<li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
+				<li class="ftco-animate"><a href="https://www.instagram.com/genesis22.mmc/?igshid=YmMyMTA2M2Y%3D "
+					target="_blank" rel="noopener noreferrer"><span class="icon-instagram"></span></a></li>
+			  </ul>
+	
+			</div>
+			<div class="col-sm-4">
+			  <ul class="terms">
+				<li><a href="about.html">About</a></li>
+				<li><a href="menu.html">Events</a></li>
+				<li><a href="reservation.html">Register</a></li>
+				<li><a href="termsAndConditions.html">Terms&nbsp;And&nbsp;Conditions</a></li>
+				<li><a href="privacyPolicy.html">Privacy&nbsp;Policy</a></li>
+			  </ul>
+			</div>
+			<div class="col-sm-4" class="footerList">
+			  <div>
+				<h2 style="color: #EBEBE0;">Contact</h2>
+				<div>
+				  <a href="https://chat.whatsapp.com/LhwXLK1lAb81Um8eYdIEar" target="_blank" rel="noopener noreferrer">
+					<img src="images/genesis/whatsapp_chat_2.png">
+				  </a>
+				</div>
+				<p></p>
+				<div>
+				  <a href="mailto:queries@mmcgenesis.com">
+					<img src="images/genesis/Group 34.png"> queries@mmcgenesis.com </span>
+				  </a>
+				</div>
+			  </div>
+			</div>
+		  </div>
+		</div><br><br>
+		<div style="text-align: center;">
+		  <span style="color: #EBEBE0;">
+			&copy;Copyright of Madras Medical College - Genesis 2022
+		  </span>
+		</div>
+	  </footer>
+
+
+	<!-- loader -->
+	<div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px">
+			<circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" />
+			<circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10"
+				stroke="#F96D00" />
+		</svg></div>
+
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery-migrate-3.0.1.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.easing.1.3.js"></script>
+	<script src="js/jquery.waypoints.min.js"></script>
+	<script src="js/jquery.stellar.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="js/aos.js"></script>
+	<script src="js/jquery.animateNumber.min.js"></script>
+	<script src="js/bootstrap-datepicker.js"></script>
+	<script src="js/jquery.timepicker.min.js"></script>
+	<script src="js/scrollax.min.js"></script>
+	<script
+		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+	<script src="js/google-map.js"></script>
+	<script src="js/main.js"></script>
+
+	<script>
+		function loadData() {
+			document.getElementById('Day_1').style.display = 'block';
+			document.getElementById('Day_2').style.display = 'none';
+			document.getElementById('Day_3').style.display = 'none';
+			document.getElementById('Day_4').style.display = 'none';
+		}
+		function Day1() {
+			document.getElementById('Day_1').style.display = 'block';
+			document.getElementById('Day_2').style.display = 'none';
+			document.getElementById('Day_3').style.display = 'none';
+			document.getElementById('Day_4').style.display = 'none';
+		}
+		function Day2() {
+			document.getElementById('Day_1').style.display = 'none';
+			document.getElementById('Day_2').style.display = 'block';
+			document.getElementById('Day_3').style.display = 'none';
+			document.getElementById('Day_4').style.display = 'none';
+		}
+		function Day3() {
+			document.getElementById('Day_1').style.display = 'none';
+			document.getElementById('Day_2').style.display = 'none';
+			document.getElementById('Day_3').style.display = 'block';
+			document.getElementById('Day_4').style.display = 'none';
+		}
+		function Day4() {
+			document.getElementById('Day_1').style.display = 'none';
+			document.getElementById('Day_2').style.display = 'none';
+			document.getElementById('Day_3').style.display = 'none';
+			document.getElementById('Day_4').style.display = 'block';
+		}
+
+		// window.onscroll = function () { scrollFun() };
+		// function scrollFun() {
+		// 	var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+		// 	if (winScroll < 350) {
+		// 		document.getElementById('whiteImg').style.display = 'block';
+		// 		document.getElementById('blackImg').style.display = 'none'
+		// 	}
+		// 	else {
+		// 		document.getElementById('whiteImg').style.display = 'none';
+		// 		document.getElementById('blackImg').style.display = 'block'
+		// 	}
+		// }
+	</script>
+
+
+</body>
+
+</html>
